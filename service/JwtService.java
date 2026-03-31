@@ -14,7 +14,7 @@ public class JwtService {
 	
 	static final long EXPIRATIONTIME=86400000;
 	//1 days expiration time in milliS, in production we gonna make it shorter
-	static final String PREFIX = "Bearer";
+	static final String PREFIX = "Bearer ";
 	
 	//Generate a secret key. This is only for demo purposes
 	//In prod, we will read it from the application configuration
